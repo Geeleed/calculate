@@ -7,7 +7,7 @@ def root():
     # return "connection ok. You can use api in /docs page."
     return FileResponse("index.html")
 
-from apis.calc import *
+from apis.maths import *
 
 if __name__ == '__main__':
     import uvicorn
