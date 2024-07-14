@@ -22,3 +22,9 @@ pip freeze > requirements.txt
 ```
 
 สามารถใช้งาน api ได้ที่ https://calculate-mauve.vercel.app/docs
+
+## Version
+
+### 1.0.0
+
+- มี api สำหรับคำนวณค่าโดยใส่สมการที่ต้องการ และ api สำหรับแก้สมการ 1 ตัวแปร (ตัวแปร x)
